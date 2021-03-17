@@ -1,0 +1,29 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  margin: 6px 4px;
+  border-radius: 12px;
+  background-color: rgb(78, 139, 139);
+}
+
+.todoItem > p {
+  flex: 1;
+}
+
+.todoItem--done {
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  margin: 8px;
+  background: rgb(175, 42, 42);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  padding: 6px;
+  text-align: center;
+}
